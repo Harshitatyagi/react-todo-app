@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Todolist(props) {
+function TodoList(props) {
   return (
     <li className="list-item">
         {props.item}
@@ -14,4 +14,4 @@ function Todolist(props) {
   )
 }
 
-export default Todolist;
+export default TodoList;
